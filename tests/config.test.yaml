@@ -1,0 +1,13 @@
+# Config for the end-to-end test with tests/fake_tv.py and tests/fake_bridge.py
+name: Hue Bridge
+tv_ip: 127.0.0.1
+host_ip: 127.0.0.1
+http_port: 8080
+mdns: true
+state_file: tests/state_test.json
+timeout: 2
+hue:
+  bridge_ip: 127.0.0.1
+  app_key: testappkey
+  client_key: 00112233445566778899AABBCCDDEEFF
+  entertainment_area: Entertainment-Bereich 1

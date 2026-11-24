@@ -1,0 +1,13 @@
+[Unit]
+Description=ambiair-hue-bridge – Philips Ambilight to Philips Hue
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/opt/ambiair-hue-bridge
+ExecStart=/opt/ambiair-hue-bridge/venv/bin/python /opt/ambiair-hue-bridge/ambiair_hue_bridge.py -c /opt/ambiair-hue-bridge/config.yaml
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

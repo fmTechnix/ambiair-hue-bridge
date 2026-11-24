@@ -1,0 +1,39 @@
+# ambiair-hue-bridge – configuration / Konfiguration
+# Kopieren nach config.yaml und anpassen.
+
+# Name, der im AmbiAir-Menü des Fernsehers erscheint ("tpv_" wird vorangestellt)
+name: Hue Bridge
+
+# IP deines Philips-Fernsehers
+tv_ip: 192.168.178.200
+
+# IP dieses Servers; "auto" = die Adresse, über die der Fernseher erreichbar ist
+host_ip: auto
+
+# Hue-Zugangsdaten: mit  python ambiair_hue_bridge.py --pair  erzeugen
+hue:
+  bridge_ip: 192.168.178.XXX
+  app_key: ""
+  client_key: ""
+  entertainment_area: "Entertainment-Bereich 1"
+
+# Helligkeit der Hue-Lampen (0.0 – 1.0)
+brightness: 1.0
+
+# Glättung gegen Flackern: 0 = aus, 0.3 = leicht, 0.7 = stark
+smoothing: 0.2
+
+# Nach so vielen Sekunden ohne Farben gibt die Bridge die Lampen wieder frei
+timeout: 3
+
+# Optional: Zuordnung von Hue-Kanälen zu Ambilight-Positionen von Hand.
+# Ohne Eintrag wird automatisch die Lampenplatzierung aus der Hue-App genutzt.
+# Mögliche Positionen:
+#   BottomLeft LeftDown LeftUp TopLeft TopMiddle TopRight
+#   RightUp RightDown BottomRight BottomMiddle
+# Kanal-Nummern zeigt:  python ambiair_hue_bridge.py --list
+mapping: {}
+#  0: LeftDown
+#  1: [TopLeft, TopMiddle, TopRight]   # Mittelwert mehrerer Positionen
+
+state_file: /opt/ambiair-hue-bridge/state.json

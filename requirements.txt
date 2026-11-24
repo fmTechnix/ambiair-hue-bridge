@@ -1,0 +1,3 @@
+python-mbedtls==2.10.1
+zeroconf>=0.130
+PyYAML>=6.0

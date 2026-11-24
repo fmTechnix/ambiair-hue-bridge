@@ -1,0 +1,10 @@
+services:
+  ambiair-hue-bridge:
+    build: .
+    container_name: ambiair-hue-bridge
+    network_mode: host      # mDNS + multicast + port 80
+    restart: unless-stopped
+    stdin_open: true        # needed for --pair
+    tty: true
+    volumes:
+      - ./data:/data        # data/config.yaml (state_file: /data/state.json)

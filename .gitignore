@@ -1,0 +1,19 @@
+# Zugangsdaten / credentials
+config.yaml
+*.state.json
+*_state.json
+state.json
+state.json.tmp
+
+# Test-Zertifikate
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Philips-Dateien gehören nicht ins Repo
+*.apk
+*.dex
