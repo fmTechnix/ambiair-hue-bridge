@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="docs/banner.svg" alt="ambiair-hue-bridge – your TV's Ambilight on every Hue light" width="100%">
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"></a>
+  <img src="https://img.shields.io/badge/python-3.11-blue.svg?logo=python&logoColor=white" alt="Python 3.11">
+  <img src="https://img.shields.io/badge/runs%20on-Proxmox%20%7C%20Docker%20%7C%20Pi-orange.svg" alt="Proxmox | Docker | Raspberry Pi">
+  <img src="https://img.shields.io/badge/cloud-none-brightgreen.svg" alt="No cloud">
+  <a href="https://buymeacoffee.com/fmTechnix"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
+</p>
+
 # ambiair-hue-bridge
 
 **Use the Ambilight of your Philips Google TV with *any* Philips Hue lights – no Hue Sync Box, no screen capture, works with Netflix & co.**
@@ -149,7 +161,9 @@ python tests/fake_tv.py . 8080
 
 ## Support
 
-If this brings your living room to life, you can [buy me a coffee](https://buymeacoffee.com/fmTechnix) ☕
+If this brings your living room to life, a coffee keeps the next project going ☕
+
+<a href="https://buymeacoffee.com/fmTechnix"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50"></a>
 
 ## License
 

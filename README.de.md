@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="docs/banner.svg" alt="ambiair-hue-bridge – Ambilight auf allen Hue-Lampen" width="100%">
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"></a>
+  <img src="https://img.shields.io/badge/python-3.11-blue.svg?logo=python&logoColor=white" alt="Python 3.11">
+  <img src="https://img.shields.io/badge/runs%20on-Proxmox%20%7C%20Docker%20%7C%20Pi-orange.svg" alt="Proxmox | Docker | Raspberry Pi">
+  <img src="https://img.shields.io/badge/cloud-none-brightgreen.svg" alt="Keine Cloud">
+  <a href="https://buymeacoffee.com/fmTechnix"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
+</p>
+
 # ambiair-hue-bridge
 
 **Ambilight deines Philips Google TV auf *beliebige* Philips-Hue-Lampen – ohne Sync Box, ohne Bildschirmaufnahme, funktioniert auch mit Netflix & Co.**
@@ -94,7 +106,9 @@ Im Assistenten:
 
 ## Unterstützen
 
-Wenn's dein Wohnzimmer zum Leuchten bringt: [Buy me a coffee](https://buymeacoffee.com/fmTechnix) ☕
+Wenn's dein Wohnzimmer zum Leuchten bringt, freue ich mich über einen Kaffee ☕
+
+<a href="https://buymeacoffee.com/fmTechnix"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50"></a>
 
 ## Lizenz
 
